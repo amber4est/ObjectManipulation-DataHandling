@@ -20,3 +20,17 @@ header {
     margin-bottom: 20px;
     box-shadow: 4px 4px 4px white;
 }
+
+p {
+    background-color: paleturquoise;
+    color: black;
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
