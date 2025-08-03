@@ -27,7 +27,8 @@ console.log("\nStudent's information back in an object:\n", studentFromJSON);
 
 console.log("\nOriginal Student Information:\n", student);
 
-console.log("\nThe student's information in an object from the JSON is missing the method that is in the original student object!");
+console.log("\nDoes the student object from JSON match the original student object? ", studentFromJSON===student);
+console.log("The student's information in an object from the JSON is missing the method that is in the original student object!");
 
 //Part 3: Using Destructuring Assignment
 console.log(partSeperation);
@@ -70,3 +71,16 @@ console.log(`The student is taking ${student.numberOfCourses()} courses.`);
 console.log("The student has just been added to a new course:", student.addCourses("Computer Science"));
 console.log("Now the student's courses are: ", courses);
 console.log(`The student is now taking ${student.numberOfCourses()} courses.`);
+
+//Bonus Task
+console.log(partSeperation);
+
+const totalScore = scores.reduce((total, score) => {
+    return total + score;
+}, 0);
+
+const averageScore = totalScore / scores.length;
+    
+console.log("Scores: ", scores);
+console.log("Average Score", averageScore);
+console.log(partSeperation);
