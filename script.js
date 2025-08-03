@@ -54,3 +54,19 @@ console.log("\nOriginal Courses: ", student.courses);
 console.log("\nNew Courses: ", newCourses);
 console.log("\nCombined Courses: ", combinedCourses);
 
+//Part 5: Object Methods
+console.log(partSeperation);
+
+student.addCourses = function(courseName) {
+    this.courses.push(courseName);
+    return `${courseName}`
+};
+
+student.numberOfCourses = function() {
+    return this.courses.length;
+};
+
+console.log(`The student is taking ${student.numberOfCourses()} courses.`);
+console.log("The student has just been added to a new course:", student.addCourses("Computer Science"));
+console.log("Now the student's courses are: ", courses);
+console.log(`The student is now taking ${student.numberOfCourses()} courses.`);
