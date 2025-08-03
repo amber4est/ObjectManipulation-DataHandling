@@ -28,3 +28,15 @@ console.log("\nStudent's information back in an object:\n", studentFromJSON);
 console.log("\nOriginal Student Information:\n", student);
 
 console.log("\nThe student's information in an object from the JSON is missing the method that is in the original student object!");
+
+//Part 3: Using Destructuring Assignment
+console.log(partSeperation);
+
+let { name, courses } = student;
+console.log("Destructured Name: ", name);
+console.log("\nDestructured Courses: ", courses);
+
+const scores = [85, 92, 78, 90, 56, 76];
+let [firstScore, secondScore] = scores;
+console.log("\nStudent's Scores:", scores);
+console.log("Destructured first two scores:", firstScore, secondScore);
