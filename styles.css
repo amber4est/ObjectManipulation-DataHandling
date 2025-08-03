@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    line-height: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px white;
+}
