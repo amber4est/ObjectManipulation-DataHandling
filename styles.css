@@ -33,3 +33,11 @@ p {
     border-radius: 10px;
     box-shadow: 2px 2px 2px whitesmoke;
 }
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
