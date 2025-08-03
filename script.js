@@ -40,3 +40,17 @@ const scores = [85, 92, 78, 90, 56, 76];
 let [firstScore, secondScore] = scores;
 console.log("\nStudent's Scores:", scores);
 console.log("Destructured first two scores:", firstScore, secondScore);
+
+//Part 4: The Spread Operator
+console.log(partSeperation);
+
+let clonedStudent = { ...student }
+clonedStudent.graduationYear = 2027;
+console.log("Cloned object with added property: \n", clonedStudent);
+
+const newCourses = ["Developing", "Coding"];
+let combinedCourses = [...student.courses, ...newCourses];
+console.log("\nOriginal Courses: ", student.courses);
+console.log("\nNew Courses: ", newCourses);
+console.log("\nCombined Courses: ", combinedCourses);
+
