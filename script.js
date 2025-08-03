@@ -1,4 +1,5 @@
-partSeperation="--------------------------------------";
+partSeperation="-----------------------------------------------------------";
+
 //Part 1: Understanding and Creating Objects
 student = {
     name: "Amber",
